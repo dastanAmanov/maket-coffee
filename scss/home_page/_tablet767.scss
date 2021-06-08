@@ -1,0 +1,318 @@
+@media only screen and (max-width:767px){
+    .container{
+        width: 689px;
+        margin: auto;
+    }
+    .container_work{
+        width: 689px;
+        margin: auto;
+    }
+    .header_wrapper{
+        height: 500px;
+        background-image: url(../img/bgImgCoffee.jpg);
+        h1{
+            max-width: 350px;
+            font-size: 48px;
+            line-height: 48px;
+            margin: 0 0 12px 58px;
+        }
+        p{
+            max-width: 370px;
+            font-size: 15px;
+            line-height: 25px;
+            padding-top: 10px;
+            margin: 0 0 10px 58px;
+        }
+        a{
+            margin: 30px 0 0 58px ;
+        }
+    } 
+    .our_collection{
+        h2{
+            font-size: 95px;
+        }
+        .type_coffe{
+            display: block;
+            margin: 0;
+            top: 55px;
+            .our_coffe{
+                display: flex;
+                min-width: 600px;
+                margin: 0 0 40px 0;
+                
+                .our_coffe__title{
+                    font-size: 24px;
+                    line-height: 32px;
+                    padding-left: 90px;
+                    text-align: left;
+                }
+                .our_coffe__subtitle{
+                    width: 90%;
+                    font-size: 16px;
+                    line-height: 26px;
+                    padding-left: 90px;
+                    text-align: left;
+                }
+            }
+        }
+    }
+    .services{
+        height: 560px;
+        margin-top: 1000px;
+        text-align: left;
+        .services__title{
+            font-size: 32px;
+            padding: 71px 0 12px;
+        }
+        .services__subtitle{
+            padding: 0px 0 30px;
+            font-size: 15px;
+            line-height: 25px;
+        }
+        .block_service{
+            display: block;
+            margin-left: 35px;
+            .service_types{
+                max-width: 560px;
+                height: 100%;
+                margin-bottom: 24px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .imgBefore:before{
+                margin: 0px 70px 0;
+            }
+            .imgBefore2:before{
+                margin: 10px 70px 0;
+            }
+            .imgBefore3:before{
+                margin: 30px 70px 0;
+            }
+            .service_text_block{
+            display: block;
+            }
+        }
+    }
+    .service_types__title{
+        margin: 0;
+        padding: 41px 0 0 0;
+        text-align: left;
+    }
+    .service_types__subtitle{
+        width: 344px;
+        text-align: left;
+        font-size: 15px;
+        line-height: 25px; 
+        margin: 0 0 30px 0;
+        
+    }
+
+    .works_title{
+        margin: 400px 0 50px;
+    }
+        .line{
+            max-width: 467px;
+            span{
+                width: 20px;
+                height: 20px;
+            }
+        }
+    .works_block{
+        .block__row{
+            max-width: 280px;
+            margin-right: 30px;
+            .row__title{
+                font-size: 72px;
+                line-height: 72px;
+                color: $colorPaleOrange;
+            }
+            .row__col_title{
+                font-size: 28px;
+                line-height: 32px;
+                padding-bottom: 40px;
+            }
+            .row__subtitle{
+                font-size: 15px;
+                line-height: 25px;
+                margin-bottom: 32px;
+            }
+        }
+    }
+    .footer{
+        display: block;
+        margin-bottom: 60px;
+        
+        .footer_logo{
+            width: 100%;
+            margin-left: 30%;
+
+        }
+        ul{
+            max-width: 100%;
+            padding-top: 10px;
+            margin-left: 23%;
+            
+            li {
+                display: block;
+                padding-right: 10px;
+            } 
+        }
+        .icons{
+            width: 100%;
+            padding-top: 40px;
+            text-align: center;
+            display: block;
+        }
+    }
+
+
+    /* ----------------------------------
+                    ABOUT US
+     --------------------------------------*/
+     .about_header{
+        background-image: url(../img/Object.webp);
+        border-radius: 10px;
+        height: 400px;
+        margin-bottom: 100px;
+        .about__title{
+            font-size: 32px;
+            line-height: 40px;
+            padding: 118px 0 12px 58px;
+        }
+        .about__subtitle{
+            max-width: 398px;
+            padding: 12px 0 118px 58px;
+            font-size: 15px;
+            line-height: 25px;
+            
+        }
+    }
+    .our_commitment{
+        img{
+            margin: 14px 50px 0 0;
+            border-radius: 10px;
+        }
+        h3{
+            font-size: 32px;
+            padding-top: 10px;
+            padding-bottom: 0px;
+        }
+        p{
+            font-size: 15px;
+            line-height: 25px;
+            padding-right: 10px;
+        }
+    }
+    .qualty{
+        display: block;
+        position: relative;
+        height: 648px;
+        h3{
+            font-size: 32px;
+            text-align: center;
+            padding: 300px 0 0 0;
+            
+        }
+        p{
+            max-width: 100%;
+            font-size: 15px;
+            line-height: 25px;
+            padding: 0 74px 0px;
+            text-align: center;
+        }
+        .qualty_img{
+            width: 573px;
+            height: 320px;
+            background-image: url(../img/humanCoffee.jpg);
+            position: absolute;
+            top:  -130px;
+            right: 60px; 
+        }
+    }
+
+    .our_head_title{
+        padding-left:  0;
+    }
+    .our_row{
+        margin-left: 0;
+        .our_row_box{
+            margin-right: 60px;
+            h3{
+                font-size: 24px;
+            }
+        }
+    }
+
+
+    /*-------------
+        SUBSCRIBE
+    ------------------ */
+    .create_plan_header{
+        background-image: url(../img/PLANCREATE_TABLET.jpg);
+        border-radius: 10px;
+        width: 689px;
+        height: 400px;
+        .plan__title{
+            font-size: 48px;
+            line-height: 48px;
+        }
+    } 
+    .works{
+        .container{
+            width: 767px;
+            margin: auto;
+        }
+    }
+
+    /*----------------
+         DRINK COFFEE
+    --------------------- */
+
+    .drink_coffe{
+        justify-content:space-between ;
+        
+        .row_left{
+            display: none;
+        }
+        .row_right{
+            .choice_1{
+                .title_btn_block{
+                    width: 719px;
+                    h3{
+                        margin-left: 0;
+                        padding-left: 13px;
+                        margin-top: 80px;
+                        margin-bottom: 40px;
+                        font-size: 32px;
+                        line-height: 48px;
+                    }
+                    button{
+                        padding-top: 43px;
+                        padding-right: 35px;
+                    }
+
+                }
+                .choice_forma{
+                    ul{
+                        width: 689px;
+                        padding-left: 10px;
+                        li{
+                            margin-right: 10px;
+                        }
+                    }
+                }
+            }
+        }
+        .order_summary{
+            width: 689px;
+            .order_summary_block{
+                margin: 0 0;
+                padding: 30px 40px 30px 45px;
+            }
+            a{
+                margin: 67px 0 144px 256px;
+            }
+        }
+    }
+}

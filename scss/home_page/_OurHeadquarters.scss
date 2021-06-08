@@ -1,0 +1,70 @@
+.our_head_title{
+    font-size: 24px;
+    line-height: 32px;
+    padding: 140px 0 10px 85px;
+    color: $colorGrey;
+}
+.our_row{
+    display: flex;
+    justify-content: start;
+    margin-left: 85px;
+    .our_row_box{
+        max-width: 33.333%;
+        margin-right: 180px;
+        h3{
+            font-size: 32px;
+            line-height: 36px;
+            color: $colorDarcGreyBlue;
+        }
+        ul{
+            padding: 0;
+             li{
+            list-style-type: none;
+            font-size: 16px;
+            line-height: 26px;
+            color: $colorDarcGreyBlue;
+            padding-bottom: 12px;
+            &:last-child{
+                padding-bottom: 120px;
+                }
+            }
+        }
+    }
+
+    .before{
+        &:before{
+            content: '';
+            display: block;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 60px;
+            background-image: url(../img/kingdom.svg);
+            background-size: cover;  
+            background-position: right;
+        }  
+    }
+    .before2{
+        &:before{
+            content: '';
+            display: block;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 60px;
+            background-image: url(../img/canada.svg);
+            background-size: cover;  
+            background-position: right;
+        }  
+    }
+    .before3{
+        &:before{
+            content: '';
+            display: block;
+            width: 80px;
+            height: 80px;
+            margin-bottom: 60px;
+            background-image: url(../img/australia.svg);
+            background-size: cover;  
+            background-position: right;
+        }  
+    }
+}

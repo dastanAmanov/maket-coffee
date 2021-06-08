@@ -1,0 +1,37 @@
+.our_collection{
+    margin: 80px 0 0;
+    position: relative;
+    h2{
+        font-size: 140px;
+        text-align: center;
+        background: -webkit-linear-gradient($colorGrey, $colorLightCream);
+        -webkit-background-clip:text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .type_coffe{
+        display: flex;
+       justify-content: center;
+        position: absolute;
+        top: 85px;
+               
+        .our_coffe{
+            max-width: 255px;
+            margin-right: 10px;
+            .our_coffe__title{
+                font-size: 24px;
+                line-height: 32px;
+                text-align: center;
+                color: $colorDarcGreyBlue;
+            }
+            .our_coffe__subtitle{
+                font-size: 16px;
+                line-height: 26px;
+                text-align: center;
+                color: $colorDarcGreyBlue; 
+                padding: 0 15px; 
+            }
+        }
+    
+    }
+}

@@ -1,0 +1,139 @@
+.drink_coffe{
+    display: flex;
+    .row_left{
+        width: 30%;
+        margin: 0 40px;
+        ul li{
+            list-style-type: none;
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            padding: 24px 0;
+            border-bottom: 1px solid $colorGrey;
+            color: $colorGrey; 
+            .left_li:hover{
+                    color: #515b69; 
+            }
+            .li_number{
+                padding-right: 25px;
+               
+            }
+            .active_number{
+                color: skyblue;
+            }
+            .active{
+                color: $colorDarcGreyBlue;
+                &:hover{
+                    color:$colorDarcGreyBlue;
+                }
+            }
+        }
+    }
+    
+    .row_right{
+        width: 70%;
+          
+    .choice_1{
+        margin-bottom: 100px;
+        visibility: visible;.title_btn_block{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .title_btn_block{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        h3{
+            display: inline-block;
+            font-size: 40px;
+            line-height: 48px;
+            padding-bottom: 56px;
+            margin: 0 40px;
+            color:$colorGrey;
+        }
+        button{
+            border: none; 
+            background-color: transparent;
+            padding-right: 70px;
+            padding-bottom: 45px;
+        }
+    }
+            
+        
+        .choice_forma ul{    
+             display: flex; 
+             justify-content: start;
+             list-style-type: none;
+             li{
+                 width: 228px;
+                 margin-right: 28px;
+                 border-radius: 10px;
+                 background-color: $colorWhiteCream; 
+                 &:hover{
+                    background-color: $colorPaleOrange;
+                }
+            }
+                
+                 h4{
+                    font-size: 24px;
+                    line-height: 32px;
+                    padding: 20px 0 10px 28px;
+                    color: $colorDarcGreyBlue;
+                   
+                 }
+                 p{
+                    font-size: 16px;
+                    line-height: 26px;
+                    padding: 0 28px 60px;
+                    color: $colorDarcGreyBlue;
+                    
+                 }
+                 .active{
+                    background-color: $colorDarkCyan;
+                    color: $colorLightCream;
+                    &:hover{
+                        background-color: $colorDarkCyan;
+                    }
+                } 
+            }
+        }
+    }
+    .order_summary_block{
+        background-color: $colorDarcGreyBlue;
+        margin: 0 30px;
+        padding: 31px 120px 35px 65px;
+        h4{
+            font-family: 'Barlow', sans-serif;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 26px;
+            text-transform: uppercase;
+            color: $colorGrey;
+        }
+        p{
+            font-size: 24px;
+            line-height: 40px;
+            color: $colorLightCream;
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 900;
+            .text_color{
+                color: $colorDarkCyan;
+            }  
+        }
+       
+    }
+    a{
+        display: inline-block;
+        margin: 30px 0 60px 572px;
+        @include link;
+        &:hover{
+            background-color: $colorskyblue;
+        }
+    }  
+         
+}

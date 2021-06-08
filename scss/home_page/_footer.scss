@@ -1,0 +1,47 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: $colorDarcGreyBlue;
+    margin: 75px auto 90px;
+    padding: 47px 0;
+    .footer_logo{
+        width: 30%;
+        margin: 0 0px 0 90px;
+    }
+    ul{
+        display: flex;
+        width: 50%;
+        margin-right: 50px;
+        li{
+            list-style-type: none;
+            margin-right: 32px;
+            a{  
+                font-size: 12px;
+                line-height: 15px;
+                color: $colorGrey;
+                text-transform: uppercase;
+                &:hover{
+                    color: $colorLightCream;
+                }
+            }
+        }
+    }
+    .icons{
+        width: 20%;
+        a{
+            width: 34px;
+            height: 34px;
+            display: inline-block;
+        }
+    }
+    .icon{ 
+        width: 24px; 
+        height: 24px;
+        margin-right: 24px;
+        fill: $colorLightCream;
+        &:hover{
+            fill : $colorPaleOrange;
+        }
+    }       
+}

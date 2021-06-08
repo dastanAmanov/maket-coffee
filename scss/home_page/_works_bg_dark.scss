@@ -1,0 +1,21 @@
+.works_bg_dark{
+    background-color: $colorDarcGreyBlue;
+    border-radius: 10px;
+    padding-top: 100px;
+    margin-bottom: 120px;
+    .row_col__title{
+        font-size: 32px;
+        line-height: 36px;
+        color: $colorLightCream;
+    }
+    .row_col_subtitle{
+        color: $colorLightCream;
+        padding-bottom: 120px;
+    }
+    .line_plan{
+        span{
+            background-color: unset;
+           
+        }
+    }
+}

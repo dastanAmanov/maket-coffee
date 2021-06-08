@@ -1,0 +1,32 @@
+@import './global';
+@import './templates';
+@import './container';
+@import './header';
+@import './our_callection';
+@import './services';
+@import './works';
+@import './footer';
+
+/*------------
+   ABOUT US 
+ ------------*/
+ @import './about_header';
+ @import './ourcommitment';
+@import './UncompromisingQuality';
+@import './OurHeadquarters';
+
+
+/*--------------
+    SUBSCRIBE
+  ------------------*/
+  @import './works_bg_dark';
+  @import './create_plan_header';
+  @import './drink_coffee';
+  @import './modal';
+
+
+/*----------------
+    MEDIA QUERY
+    ------------------*/
+    @import './tablet767';
+    @import './mobile375';

@@ -1,0 +1,22 @@
+$colorDarkCyan: #0E8784;
+$colorDarcGreyBlue: #333D4B;
+$colorPaleOrange: #FDD6BA;
+$colorLightCream: #FEFCF7;
+$colorGrey: #83888F;
+$colorWhiteCream: #F4F1EB;
+
+// HOVER
+$colorskyblue: #66d2cf;
+   
+
+@mixin link{                             
+    padding: 16px 30px;
+    font-family: 'Fraunces', serif;
+    font-style: normal;                 //@include link;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 6px;
+    background-color: $colorDarkCyan;
+    color: $colorLightCream;
+}                  

@@ -1,0 +1,63 @@
+.modal{
+    width: 100%;
+    height: 100vh;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(63, 59, 59, 0.5);
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: auto;
+    .modal_block{
+        width: 540px;
+        height: 567px;
+        background-color: $colorLightCream;
+        h3{
+            font-size: 40px;
+            line-height: 48px;
+            padding: 30px 0 30px 30px;
+            margin: 0;
+            color: $colorLightCream;
+            background-color: $colorDarcGreyBlue;
+        }
+        .modal_subtitle{
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 40px;
+            padding: 50px 56px 10px;
+            margin: 0;
+            color: $colorDarcGreyBlue;
+            .text_color{
+                color: $colorDarkCyan;
+            }
+        }
+        .modal_mini_title{
+            font-size: 16px;
+            line-height: 26px;
+            padding: 0 56px 30px;
+            color: $colorDarcGreyBlue;
+        }
+        .modal_mini_text{
+            font-family: 'Fraunces', serif;
+            font-style: normal;
+            font-weight: 900;
+            font-size: 32px;
+            line-height: 36px;
+            margin: 0 20px 0 56px;
+            color: $colorDarcGreyBlue;
+        }
+        a{
+            @include link;
+            padding: 16px 60px;
+            &:hover{
+                background-color: $colorskyblue;
+            }
+        }
+        .modal_link{
+            display: none;
+        }
+    }
+}
