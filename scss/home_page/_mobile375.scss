@@ -28,7 +28,8 @@
             display: block;
             .bar_menu{
                 display: none;
-                height: 120vh;
+                height: 100vh;
+                padding: 0;
                 position: absolute;
                 top: 80px;
                 left: 0;
@@ -38,7 +39,6 @@
                     text-align: center;
                     list-style-type: none;
                     padding-top: 40px;
-                    padding-right: 10px;
                     font-family: 'Fraunces', serif;
                     font-weight: 900;
                     font-size: 24px;
@@ -100,7 +100,7 @@
             margin: 0;
         }
         .services__subtitle{
-            padding: 16px 15px 64px 43px;
+            padding: 16px 16px 64px 16px
         }
         .block_service{
             flex-wrap: wrap;
