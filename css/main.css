@@ -873,7 +873,7 @@ nav .btn_bar {
 /*----------------
     MEDIA QUERY
     ------------------*/
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 481px) and (max-width: 767px) {
   .container {
     width: 689px;
     margin: auto;
