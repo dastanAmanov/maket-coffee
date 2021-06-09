@@ -66,7 +66,7 @@
                 margin: 0 24px 35px 24px;
             }
             a{
-                margin: 35px 0 0 68px;
+                margin: 35px 0 0 57px;
             }
         }
 
@@ -81,6 +81,9 @@
                 max-width: 100%;
                 img{
                     padding-left: 45px;
+                }
+                .our_coffe__title{
+                    padding-left: 10px;
                 }
 
             }
@@ -97,7 +100,7 @@
             margin: 0;
         }
         .services__subtitle{
-            padding-bottom: 64px;
+            padding: 16px 15px 64px 43px;
         }
         .block_service{
             flex-wrap: wrap;
@@ -142,7 +145,7 @@
         }
     }
     .row_link{
-        margin: 32px 68px 75px
+        margin: 32px 56px 75px
     }
     .footer{
         flex-wrap: wrap;
@@ -158,6 +161,7 @@
             li{
                 margin-right: 0;
                 margin-bottom: 24px;
+                margin-left: 10px;
             }
         }
         .icons{

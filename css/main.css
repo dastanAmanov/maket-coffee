@@ -1239,7 +1239,7 @@ nav .btn_bar {
     margin: 0 24px 35px 24px;
   }
   .header_wrapper a {
-    margin: 35px 0 0 68px;
+    margin: 35px 0 0 57px;
   }
   .our_collection h2 {
     font-size: 42px;
@@ -1255,6 +1255,9 @@ nav .btn_bar {
   .our_collection .type_coffe .our_coffe img {
     padding-left: 45px;
   }
+  .our_collection .type_coffe .our_coffe .our_coffe__title {
+    padding-left: 10px;
+  }
   .services {
     height: 888px;
     margin-top: 1580px;
@@ -1266,7 +1269,7 @@ nav .btn_bar {
     margin: 0;
   }
   .services .services__subtitle {
-    padding-bottom: 64px;
+    padding: 16px 15px 64px 43px;
   }
   .services .block_service {
     -ms-flex-wrap: wrap;
@@ -1312,7 +1315,7 @@ nav .btn_bar {
     margin-left: 15px;
   }
   .row_link {
-    margin: 32px 68px 75px;
+    margin: 32px 56px 75px;
   }
   .footer {
     -ms-flex-wrap: wrap;
@@ -1331,6 +1334,7 @@ nav .btn_bar {
   .footer ul li {
     margin-right: 0;
     margin-bottom: 24px;
+    margin-left: 10px;
   }
   .footer .icons {
     width: 100%;
