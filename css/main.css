@@ -1305,7 +1305,6 @@ nav .btn_bar {
   }
   .works_block .block__row .row__header_title {
     max-width: 100%;
-    padding-left: 28px;
     font-size: 27px;
     line-height: 32px;
   }
@@ -1531,7 +1530,7 @@ nav .btn_bar {
     margin-bottom: 0;
   }
   .drink_coffe a {
-    margin: 60px 0 50px 70px;
+    margin: 60px 0 50px 64px;
   }
   .modal .modal_block {
     width: 327px;
